@@ -18,7 +18,7 @@ typedef struct{
 	Direction direction;
 } Game;
 
-void init_jeu(Game *, int, int, int);
-void LancerJeu(Game, WINDOW *, long);
+void init_jeu(WINDOW *, Game *, int, int, int);
+void Lancer_Jeu(Game *, WINDOW *, long);
 
 #endif
